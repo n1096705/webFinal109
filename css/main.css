@@ -1,0 +1,88 @@
+html, body{
+    background-color: #cfe6f8;
+    color: #495867;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #495867;
+}
+a:visited {
+    color: #408fff;
+}
+div.header{
+    background-color: #bdd5eaea;
+    padding-top: 10px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+div.header span.title a{
+    color: #ffffff;
+    text-shadow: 3px 0 #577399;
+}
+div.header span.title{
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 500px;
+}
+div.header span.item{
+    font-size: 24px;
+    margin:0 30px
+}
+
+div.content{
+    padding-top: 60px;
+}
+
+div.mainInfo{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    display: flex;
+}
+div.mainInfo p{
+    font-size: 24px;
+    margin-left: 20px;
+}
+div.mainInfo img{
+    width: 640px;
+    height: 550px;
+    object-fit: cover;
+}
+div.mainInfo img:nth-child(2){
+    border-radius: 0 0 0 60px;
+    height: 650px;
+}
+
+div.contentList {
+    margin:0 4.5%;
+    display: flex;
+}
+div.contentList div.item{
+    width: 300px;
+    margin: 0 auto;
+}
+div.contentList img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+div.contentList p.title{
+    font-size: 24px;
+    border-bottom: 1px black solid;
+}
+div.contentList p.content{
+    text-overflow: ellipsis;
+}
+
+div.footer{
+    text-align: center;
+}
+
