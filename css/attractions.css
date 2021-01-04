@@ -1,0 +1,51 @@
+body,
+html {
+    background-image: url(../img/ocean.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+div.header {
+    background-color: #F3F7F6;
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+div.header a {
+    text-decoration: none;
+    color: #7798AB;
+}
+
+div.header span.title {
+    font-size: 32px;
+}
+
+div.content {
+    background-color: #F3F7F6;
+    margin: 32px;
+    display: flex;
+}
+
+div.content div.item {
+    padding: 30px;
+    margin: 30px;
+}
+
+div.content div.item img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+div.content div.item content {
+    display: block;
+}
+
+div.footer {
+    background-color: #F3F7F6;
+    color: #7798AB;
+    padding: 20px;
+    text-align: center;
+    margin-top: 32px;
+}
